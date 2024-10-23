@@ -1,19 +1,19 @@
 [
   // Navigation
   {
-    "key": "ctrl-h",
+    "key": "alt-h",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "ctrl-l",
+    "key": "alt-l",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "ctrl-k",
+    "key": "alt-k",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "ctrl-j",
+    "key": "alt-j",
     "command": "workbench.action.navigateDown"
   },
   {
@@ -193,7 +193,7 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && explorerResourceIsFolder && !inputFocus"
   },
   {
-    "key": "ctrl+n",
+    "key": "alt+n",
     "command": "extension.vim_escape",
     "when": "editorTextFocus && vim.active && !inDebugRepl"
   },
@@ -201,5 +201,26 @@
     "key": "escape",
     "command": "-extension.vim_escape",
     "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "space s",
+    "command": "workbench.action.splitEditor",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "alt+,",
+    "command": "workbench.action.terminal.kill"
   }
 ]

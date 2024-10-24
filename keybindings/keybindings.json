@@ -49,12 +49,12 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "tab",
+    "key": "ctrl-l",
     "command": "workbench.action.nextEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "shift-tab",
+    "key": "ctrl-h",
     "command": "workbench.action.previousEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
@@ -63,12 +63,12 @@
   {
     "key": "shift-j",
     "command": "editor.action.moveLinesDownAction",
-    "when": "vim.mode == 'VisualLine' && editorTextFocus"
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine') && editorTextFocus"
   },
   {
     "key": "shift-k",
     "command": "editor.action.moveLinesUpAction",
-    "when": "vim.mode == 'VisualLine' && editorTextFocus"
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine')&& editorTextFocus"
   },
   {
     "key": "shift-k",

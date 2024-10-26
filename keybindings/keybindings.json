@@ -239,7 +239,7 @@
     "command": "workbench.action.terminal.focusPrevious"
   },
   {
-    "key": "alt+,",
+    "key": "ctrl-m",
     "command": "workbench.action.terminal.kill"
   }
 ]

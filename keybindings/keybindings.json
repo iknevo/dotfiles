@@ -49,12 +49,12 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl-l",
+    "key": "shift-l",
     "command": "workbench.action.nextEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "ctrl-h",
+    "key": "shift-h",
     "command": "workbench.action.previousEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
@@ -68,6 +68,16 @@
   {
     "key": "shift-k",
     "command": "editor.action.moveLinesUpAction",
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine')&& editorTextFocus"
+  },
+  {
+    "key": "shift-.",
+    "command": "editor.action.indentLines",
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine')&& editorTextFocus"
+  },
+  {
+    "key": "shift-,",
+    "command": "editor.action.outdentLines",
     "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine')&& editorTextFocus"
   },
   {
@@ -156,12 +166,12 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "a",
+    "key": "n",
     "command": "explorer.newFile",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "shift-a",
+    "key": "shift-n",
     "command": "explorer.newFolder",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
@@ -208,6 +218,11 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
+    "key": "space v",
+    "command": "workbench.action.splitEditorDown",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
     "key": "ctrl+t",
     "command": "workbench.action.terminal.toggleTerminal"
   },
@@ -216,8 +231,12 @@
     "command": "workbench.action.terminal.new"
   },
   {
-    "key": "alt+p",
+    "key": "ctrl+n",
     "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.terminal.focusPrevious"
   },
   {
     "key": "alt+,",

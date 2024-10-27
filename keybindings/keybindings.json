@@ -235,7 +235,7 @@
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "ctrl+b",
+    "key": "ctrl+p",
     "command": "workbench.action.terminal.focusPrevious"
   },
   {

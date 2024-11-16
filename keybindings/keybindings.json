@@ -237,5 +237,14 @@
   {
     "key": "ctrl-k",
     "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "space r",
+    "command": "code-runner.run",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
   }
 ]

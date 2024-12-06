@@ -134,7 +134,7 @@
     }
   },
   {
-    "key": "ctrl-n",
+    "key": "tab",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },

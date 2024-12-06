@@ -58,6 +58,16 @@
     "command": "workbench.action.previousEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
 
   // Coding
   {
@@ -223,11 +233,11 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "ctrl+j",
+    "key": "ctrl+;",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+shift+;",
     "command": "workbench.action.terminal.new"
   },
   {
@@ -235,7 +245,7 @@
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "ctrl-k",
+    "key": "ctrl-w",
     "command": "workbench.action.terminal.kill"
   },
   {

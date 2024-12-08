@@ -256,5 +256,35 @@
   {
     "key": "ctrl+alt+n",
     "command": "-code-runner.run"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "todo.toggleCancelled",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+c",
+    "command": "-todo.toggleCancelled",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "todo.toggleDone",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+d",
+    "command": "-todo.toggleDone",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "todo.toggleStart",
+    "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "alt+s",
+    "command": "-todo.toggleStart",
+    "when": "editorTextFocus && editorLangId == 'todo'"
   }
 ]

@@ -31,11 +31,8 @@
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "all",
   "workbench.editor.enablePreview": false,
-  "files.autoSaveDelay": 500,
   "workbench.colorTheme": "NEVO",
   "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.easymotionMarkerBackgroundColor": "#020202",
   "vim.hlsearch": false,
   "vim.foldfix": true,
   "vim.useSystemClipboard": true,
@@ -65,6 +62,15 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font\"",
   "terminal.integrated.fontSize": 15,
-  "workbench.activityBar.location": "hidden",
-  "editor.fontFamily": "\"JetBrainsMono Nerd Font\""
+  "workbench.startupEditor": "newUntitledFile",
+  "codeium.enableCodeLens": false,
+  "editor.fontFamily": "\"JetBrainsMono Nerd Font\",Consolas, 'Courier New', monospace",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "editor.lineHeight": 38,
+  "editor.glyphMargin": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top"
 }

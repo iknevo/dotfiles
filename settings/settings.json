@@ -53,7 +53,7 @@
   "editor.wordSeparators": "/\\\\()\\\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "terminal.integrated.cursorStyle": "underline",
   "editor.accessibilitySupport": "off",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "eslint.run": "onSave",
   "workbench.productIconTheme": "fluent-icons",
   "scm.diffDecorationsGutterWidth": 1,
@@ -69,8 +69,6 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  "editor.lineHeight": 38,
-  "editor.glyphMargin": false,
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.lineHeight": 38
 }

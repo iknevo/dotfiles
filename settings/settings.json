@@ -63,12 +63,20 @@
   "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font\"",
   "terminal.integrated.fontSize": 15,
   "workbench.startupEditor": "newUntitledFile",
-  "codeium.enableCodeLens": false,
   "editor.fontFamily": "\"JetBrainsMono Nerd Font\",Consolas, 'Courier New', monospace",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
   "workbench.activityBar.location": "top",
-  "editor.lineHeight": 38
+  "editor.lineHeight": 38,
+  "workbench.sideBar.location": "right",
+  "codeium.enableCodeLens": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "explorer.compactFolders": false,
+  "editor.showFoldingControls": "never",
+  "workbench.layoutControl.enabled": false,
+  "window.title": " ",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false
 }

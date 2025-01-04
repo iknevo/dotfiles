@@ -51,7 +51,7 @@
     "**/{layout,page}.jsx": "${dirname} ${filename}"
   },
   "editor.wordSeparators": "/\\\\()\\\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyle": "line",
   "editor.accessibilitySupport": "off",
   "files.autoSave": "onFocusChange",
   "eslint.run": "onSave",
@@ -74,9 +74,17 @@
   "codeium.enableCodeLens": false,
   "editor.hideCursorInOverviewRuler": true,
   "explorer.compactFolders": false,
-  "editor.showFoldingControls": "never",
   "workbench.layoutControl.enabled": false,
   "window.title": " ",
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "less.lint.unknownProperties": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+  "editor.minimap.enabled": false,
+  "discord.removeRemoteRepository": true,
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }]
 }

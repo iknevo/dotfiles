@@ -245,7 +245,7 @@
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "ctrl-w",
+    "key": "ctrl-k",
     "command": "workbench.action.terminal.kill"
   },
   {

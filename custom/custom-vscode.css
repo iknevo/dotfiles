@@ -1,6 +1,7 @@
 .window-appicon {
   visibility: hidden;
 }
+
 /* Toolbars when tabs are enabled. */
 .monaco-workbench
   .part.editor
@@ -23,28 +24,18 @@
   color: #fff !important;
 }
 
-/* Sidebar top shadow */
-.monaco-scrollable-element > .shadow.top {
-  top: -3px !important;
-}
-
 /* Sidebar title */
-.composite.title {
+/* .composite.title {
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
   justify-items: center !important;
-}
+} */
 
 .composite.title h2 {
   text-transform: uppercase;
   color: #16a3ac !important;
   font-size: 12px !important ;
-}
-
-.composite.title h2::before {
-  display: inline-block;
-  margin-right: 6px;
 }
 
 /* Scroll Bar */
@@ -66,7 +57,6 @@
 .monaco-hover {
   padding: 10px !important;
   background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
-  backdrop-filter: blur(1px) !important;
   border-radius: 10px !important;
   border: none !important;
 }
@@ -120,9 +110,13 @@
   transform: translateY(-50%) !important;
   top: 50% !important;
   padding: 10px 10px 18px 10px !important;
-  background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
-  backdrop-filter: blur(1px) !important;
   border-radius: 10px !important;
+  background-image: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(28, 60, 62, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 /* Remove background for lists */
@@ -154,9 +148,9 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(2px);
   top: 0;
   left: 0;
-  backdrop-filter: blur(8px);
 }
 
 /* Command palette's input box placeholder. */

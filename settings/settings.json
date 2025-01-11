@@ -26,7 +26,7 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.stickyScroll.enabled": false,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "all",
@@ -89,9 +89,7 @@
     "*.css": "tailwindcss"
   },
   "workbench.editor.showTabs": "multiple",
-  "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
-  "window.commandCenter": false,
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
   "vscord.status.buttons.button1.enabled": false,
@@ -128,5 +126,7 @@
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css",
     "file:///E:/visual-studio/custom/vscode-script.js"
-  ]
+  ],
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
 }

@@ -1,3 +1,6 @@
+.window-appicon {
+  visibility: hidden;
+}
 /* Toolbars when tabs are enabled. */
 .monaco-workbench
   .part.editor

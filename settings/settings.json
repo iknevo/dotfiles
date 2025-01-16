@@ -98,7 +98,6 @@
   "vscord.status.buttons.button1.git.inactive.enabled": false,
   "vscord.behaviour.suppressNotifications": true,
   "vscord.status.details.text.editing": "{workspace} {problems}",
-  "workbench.colorTheme": "NEVO",
   "vscord.status.idle.check": false,
   "vscord.status.idle.enabled": false,
   "editor.copyWithSyntaxHighlighting": false,
@@ -128,5 +127,7 @@
     "file:///E:/visual-studio/custom/vscode-script.js"
   ],
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "NEVO",
+  "workbench.sideBar.location": "right"
 }

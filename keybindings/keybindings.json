@@ -122,7 +122,7 @@
   },
   {
     "key": "space w",
-    "command": "workbench.action.closeActiveEditor",
+    "command": "workbench.action.files.save",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {

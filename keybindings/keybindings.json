@@ -131,6 +131,11 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "space a",
+    "command": "workbench.action.closeAllEditors",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
     "key": "space space",
     "command": "workbench.action.quickOpen",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"

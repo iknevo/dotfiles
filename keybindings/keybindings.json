@@ -59,22 +59,22 @@
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "ctrl+j",
+    "key": "alt+j",
     "command": "selectNextSuggestion",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
   {
-    "key": "ctrl+k",
+    "key": "alt+k",
     "command": "selectPrevSuggestion",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
   {
-    "key": "ctrl+j",
+    "key": "alt+j",
     "command": "workbench.action.quickOpenSelectNext",
     "when": "inQuickOpen"
   },
   {
-    "key": "ctrl+k",
+    "key": "alt+k",
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
@@ -253,19 +253,19 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "ctrl+;",
+    "key": "alt+;",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "ctrl+shift+;",
+    "key": "alt+shift+;",
     "command": "workbench.action.terminal.new"
   },
   {
-    "key": "ctrl+p",
+    "key": "alt+p",
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "ctrl-w",
+    "key": "alt-q",
     "command": "workbench.action.terminal.kill"
   },
   {

@@ -17,7 +17,6 @@
   "git.openRepositoryInParentFolders": "always",
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorBlinking": true,
-  "workbench.editor.scrollToSwitchTabs": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
@@ -68,7 +67,6 @@
   },
   "workbench.activityBar.location": "top",
   "editor.lineHeight": 38,
-  "codeium.enableCodeLens": false,
   "editor.hideCursorInOverviewRuler": true,
   "explorer.compactFolders": false,
   "window.title": " ",
@@ -88,7 +86,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "workbench.editor.showTabs": "multiple",
   "chat.commandCenter.enabled": false,
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
@@ -128,5 +125,13 @@
   ],
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "NEVO"
+  "workbench.colorTheme": "NEVO",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "editor.unicodeHighlight.includeComments": false,
+  "editor.unicodeHighlight.includeStrings": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community"
 }

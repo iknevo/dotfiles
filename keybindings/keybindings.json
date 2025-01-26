@@ -126,12 +126,12 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space q",
+    "key": "space a",
     "command": "workbench.action.closeActiveEditor",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space a",
+    "key": "space q",
     "command": "workbench.action.closeAllEditors",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },

@@ -15,7 +15,6 @@
   "git.autofetch": true,
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "always",
-  "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorBlinking": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -53,7 +52,6 @@
   "editor.accessibilitySupport": "off",
   "files.autoSave": "onFocusChange",
   "eslint.run": "onSave",
-  "workbench.productIconTheme": "fluent-icons",
   "scm.diffDecorationsGutterWidth": 1,
   "scm.diffDecorationsGutterVisibility": "always",
   "hediet.vscode-drawio.resizeImages": null,
@@ -86,7 +84,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "chat.commandCenter.enabled": false,
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
   "vscord.status.buttons.button1.enabled": false,
@@ -107,7 +104,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "editor.guides.indentation": false,
-  "editor.hover.delay": 1500,
+  "editor.hover.delay": 500,
   "editor.hover.enabled": true,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -123,8 +120,6 @@
     "file:///E:/visual-studio/custom/custom-vscode.css",
     "file:///E:/visual-studio/custom/vscode-script.js"
   ],
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "NEVO",
   "workbench.editor.tabActionCloseVisibility": false,
   "editor.unicodeHighlight.includeComments": false,
@@ -133,5 +128,12 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.stickyScroll.scrollWithEditor": false,
   "terminal.integrated.env.windows": {},
-  "console-ninja.featureSet": "Community"
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.multiCursorLimit": 1000,
+  "editor.cursorBlinking": "expand",
+  "autoimport.doubleQuotes": true,
+  "editor.minimap.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false
 }

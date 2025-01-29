@@ -99,7 +99,7 @@
   "editor.emptySelectionClipboard": false,
   "files.trimTrailingWhitespace": true,
   "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "bottom",
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -132,8 +132,10 @@
   "editor.multiCursorLimit": 1000,
   "editor.cursorBlinking": "expand",
   "autoimport.doubleQuotes": true,
-  "editor.minimap.enabled": false,
   "workbench.layoutControl.enabled": false,
-  "chat.commandCenter.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  }
 }

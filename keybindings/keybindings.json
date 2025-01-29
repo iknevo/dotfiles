@@ -306,15 +306,5 @@
     "key": "alt+s",
     "command": "-todo.toggleStart",
     "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "g b",
-    "command": "cursorBottom",
-    "when": "(vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine') && (editorTextFocus || !inputFocus)"
-  },
-  {
-    "key": "g t",
-    "command": "cursorTop",
-    "when": "(vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine') && (editorTextFocus || !inputFocus)"
   }
 ]

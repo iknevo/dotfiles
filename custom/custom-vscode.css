@@ -13,12 +13,8 @@
   font-family: "JetBrainsMono Nerd Font", Consolas, "Courier New", monospace !important;
   color: #fff !important;
 }
-.monaco-list-row {
-  font-size: 15px !important;
-}
 
 .composite.title h2 {
-  font-size: 14px !important;
   text-transform: uppercase;
   color: #16a3ac !important;
 }

@@ -78,6 +78,26 @@
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
+  {
+    "key": "alt+e",
+    "command": "editor.action.marker.next",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+.",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  },
 
   // Coding
   {

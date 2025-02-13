@@ -112,10 +112,6 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css",
-    "file:///E:/visual-studio/custom/vscode-script.js"
-  ],
   "workbench.colorTheme": "NEVO",
   "editor.unicodeHighlight.includeComments": false,
   "editor.unicodeHighlight.includeStrings": false,
@@ -137,6 +133,7 @@
   "workbench.editor.editorActionsLocation": "titleBar",
   "vscord.status.idle.check": false,
   "vscord.status.idle.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.activityBar.location": "top",
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.editor.showTabs": "single"
 }

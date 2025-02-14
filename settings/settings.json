@@ -83,14 +83,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "vscord.status.problems.enabled": false,
-  "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
-  "vscord.status.buttons.button1.enabled": false,
-  "vscord.status.buttons.button1.git.active.enabled": false,
-  "vscord.status.buttons.button1.git.idle.enabled": false,
-  "vscord.status.buttons.button1.git.inactive.enabled": false,
-  "vscord.behaviour.suppressNotifications": true,
-  "vscord.status.details.text.editing": "{workspace} {problems}",
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": false,
@@ -120,7 +112,7 @@
   "editor.stickyScroll.scrollWithEditor": false,
   "terminal.integrated.env.windows": {},
   "editor.multiCursorLimit": 1000,
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "expand",
   "autoimport.doubleQuotes": true,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
@@ -131,9 +123,10 @@
   "reactSnippets.settings.importReactOnTop": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.editorActionsLocation": "titleBar",
-  "vscord.status.idle.check": false,
-  "vscord.status.idle.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.activityBar.location": "top",
-  "workbench.editor.showTabs": "single"
+  "vscord.status.problems.enabled": false,
+  "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+  "vscord.status.idle.enabled": false,
+  "vscord.status.idle.check": false
 }

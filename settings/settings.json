@@ -104,7 +104,6 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "workbench.colorTheme": "NEVO",
   "editor.unicodeHighlight.includeComments": false,
   "editor.unicodeHighlight.includeStrings": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -125,8 +124,5 @@
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.activityBar.location": "top",
-  "vscord.status.problems.enabled": false,
-  "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
-  "vscord.status.idle.enabled": false,
-  "vscord.status.idle.check": false
+  "workbench.colorTheme": "NEVO"
 }

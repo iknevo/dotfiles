@@ -146,7 +146,7 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space p",
+    "key": "space a",
     "command": "workbench.action.closeActiveEditor",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
@@ -285,7 +285,7 @@
     "command": "workbench.action.terminal.focusNext"
   },
   {
-    "key": "alt-q",
+    "key": "alt+w",
     "command": "workbench.action.terminal.kill"
   },
   {

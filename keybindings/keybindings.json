@@ -146,7 +146,7 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space a",
+    "key": "space p",
     "command": "workbench.action.closeActiveEditor",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
@@ -326,5 +326,10 @@
     "key": "alt+s",
     "command": "-todo.toggleStart",
     "when": "editorTextFocus && editorLangId == 'todo'"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]

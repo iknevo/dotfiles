@@ -90,7 +90,7 @@
   "editor.guides.indentation": false,
   "editor.hover.delay": 500,
   "editor.hover.enabled": true,
-  "editor.suggestLineHeight": 30,
+  "editor.suggestLineHeight": 38,
   "editor.padding.top": 16,
   "material-icon-theme.files.color": "#42a5f5",
   "workbench.editor.labelFormat": "short",
@@ -124,12 +124,9 @@
   "vscord.status.buttons.button1.git.active.enabled": false,
   "vscord.status.buttons.button1.git.idle.enabled": false,
   "vscord.status.buttons.button1.git.inactive.enabled": false,
-  "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.sideBar.location": "right",
-  "editor.minimap.enabled": false,
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
@@ -137,13 +134,15 @@
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 0.25,
-  "editor.lineHeight": 2.5,
+  "editor.lineHeight": 2.2,
   "editor.fontLigatures": true,
   "editor.tabCompletion": "on",
   "workbench.activityBar.location": "top",
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css"
   ],
-  "workbench.editor.editorActionsLocation": "titleBar"
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "vscord.status.details.text.idle": "Probably Making Coffee!",
+  "vscord.status.image.large.idle.text": "Probably Making Coffee!",
+  "vscord.status.details.text.notInFile": "Probably Making Coffee!"
 }

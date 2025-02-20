@@ -1,6 +1,6 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 18,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
   "editor.formatOnSave": true,
@@ -78,7 +78,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": false,
   "files.trimTrailingWhitespace": true,
@@ -91,7 +90,6 @@
   "editor.hover.delay": 500,
   "editor.hover.enabled": true,
   "editor.suggestLineHeight": 38,
-  "editor.padding.top": 16,
   "material-icon-theme.files.color": "#42a5f5",
   "workbench.editor.labelFormat": "short",
   "editor.semanticHighlighting.enabled": false,
@@ -104,7 +102,7 @@
   "editor.stickyScroll.scrollWithEditor": false,
   "terminal.integrated.env.windows": {},
   "editor.multiCursorLimit": 1000,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "smooth",
   "autoimport.doubleQuotes": true,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
@@ -115,7 +113,6 @@
   "reactSnippets.settings.importReactOnTop": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "NEVO",
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing  {file_name}{file_extension}",
   "vscord.status.idle.timeout": 500,
@@ -126,7 +123,6 @@
   "vscord.status.buttons.button1.git.inactive.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  "breadcrumbs.enabled": false,
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
@@ -141,8 +137,44 @@
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css"
   ],
-  "workbench.editor.editorActionsLocation": "titleBar",
   "vscord.status.details.text.idle": "Probably Making Coffee!",
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
-  "vscord.status.details.text.notInFile": "Probably Making Coffee!"
+  "vscord.status.details.text.notInFile": "Probably Making Coffee!",
+  "workbench.colorTheme": "NEVO",
+  "window.zoomLevel": 0.5,
+  // line
+  "extensions.ignoreRecommendations": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "explorer.openEditors.visible": 1,
+  "editor.copyWithSyntaxHighlighting": true,
+  "editor.fontWeight": "400",
+  "editor.matchBrackets": "always",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontalScrollbarSize": 2,
+  "explorer.decorations.colors": false,
+  "editor.bracketPairColorization.enabled": false,
+  "workbench.layoutControl.type": "menu",
+  "editor.suggest.preview": true,
+  "editor.cursorStyle": "underline",
+  "editor.cursorWidth": 5,
+  "breadcrumbs.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "editor.padding.bottom": 2,
+  "editor.padding.top": 2,
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.editorActionsLocation": "default",
+  "workbench.editor.showTabs": "multiple",
+  "editor.scrollBeyondLastLine": false
 }

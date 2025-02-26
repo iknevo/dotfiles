@@ -1,6 +1,6 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
   "editor.formatOnSave": true,
@@ -51,9 +51,8 @@
   "eslint.run": "onSave",
   "scm.diffDecorationsGutterWidth": 1,
   "scm.diffDecorationsGutterVisibility": "always",
-  "hediet.vscode-drawio.resizeImages": null,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font\"",
+  "terminal.integrated.fontFamily": "\"JetBrainsMono Nerd Font\"",
   "terminal.integrated.fontSize": 16,
   "editor.fontFamily": "\"JetBrainsMono Nerd Font\",Consolas, 'Courier New', monospace",
   "emmet.includeLanguages": {
@@ -76,7 +75,7 @@
     }
   ],
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "css"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": false,
@@ -89,7 +88,7 @@
   "editor.guides.indentation": false,
   "editor.hover.delay": 500,
   "editor.hover.enabled": true,
-  "editor.suggestLineHeight": 38,
+  "editor.suggestLineHeight": 28,
   "material-icon-theme.files.color": "#42a5f5",
   "workbench.editor.labelFormat": "short",
   "editor.semanticHighlighting.enabled": false,
@@ -107,12 +106,11 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "editor.quickSuggestions": {
-    "comments": "on",
-    "strings": "on"
+    "strings": "on",
+    "comments": "off"
   },
   "reactSnippets.settings.importReactOnTop": false,
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.productIconTheme": "fluent-icons",
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing  {file_name}{file_extension}",
   "vscord.status.idle.timeout": 500,
@@ -130,42 +128,28 @@
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "editor.lineHeight": 2.2,
+  "editor.lineHeight": 2.1,
   "editor.fontLigatures": true,
   "editor.tabCompletion": "on",
   "workbench.activityBar.location": "top",
-  "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css"
-  ],
   "vscord.status.details.text.idle": "Probably Making Coffee!",
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
   "vscord.status.details.text.notInFile": "Probably Making Coffee!",
-  "workbench.colorTheme": "NEVO",
-  "window.zoomLevel": 0.5,
-  // line
+  "window.zoomLevel": 0.55,
   "extensions.ignoreRecommendations": true,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-  },
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
   "explorer.openEditors.visible": 1,
   "editor.copyWithSyntaxHighlighting": true,
   "editor.fontWeight": "400",
   "editor.matchBrackets": "always",
-  "editor.inlineSuggest.enabled": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.gpuAcceleration": "on",
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontalScrollbarSize": 2,
-  "explorer.decorations.colors": false,
-  "editor.bracketPairColorization.enabled": false,
+  "explorer.decorations.colors": true,
+  "editor.bracketPairColorization.enabled": true,
   "workbench.layoutControl.type": "menu",
-  "editor.suggest.preview": true,
-  "editor.cursorStyle": "underline",
+  "editor.suggest.preview": false,
   "editor.cursorWidth": 5,
   "breadcrumbs.enabled": false,
   "editor.renderLineHighlight": "none",
@@ -173,8 +157,27 @@
   "editor.showFoldingControls": "never",
   "editor.padding.bottom": 2,
   "editor.padding.top": 2,
-  "window.density.editorTabHeight": "compact",
-  "workbench.editor.editorActionsLocation": "default",
+  "window.density.editorTabHeight": "default",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabs": "multiple",
-  "editor.scrollBeyondLastLine": false
+  "editor.scrollBeyondLastLine": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "editor.occurrencesHighlight": "off",
+  "scm.diffDecorations": "none",
+  "scm.diffDecorationsGutterPattern": {
+    "added": false,
+    "modified": false
+  },
+  "scm.diffDecorationsGutterAction": "none",
+  "workbench.sideBar.location": "right",
+  "editor.cursorStyle": "underline",
+  "vscord.status.idle.check": false,
+  "vscord.status.idle.enabled": false,
+  "workbench.colorTheme": "NEVO",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.sortImports": "always"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "vscord.status.details.text.editing": "{workspace} {problems}"
 }

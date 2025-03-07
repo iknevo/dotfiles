@@ -1,7 +1,7 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 19,
-  "window.zoomLevel": 0.5,
+  "editor.fontSize": 20,
+  "window.zoomLevel": 1,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
   "editor.formatOnSave": true,
@@ -33,7 +33,7 @@
   "vim.highlightedyank.color": "#8ce99a",
   "vim.highlightedyank.textColor": "black",
   "vim.leader": "<Space>",
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "off",
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
@@ -100,7 +100,7 @@
   "editor.stickyScroll.scrollWithEditor": false,
   "terminal.integrated.env.windows": {},
   "editor.multiCursorLimit": 1000,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "expand",
   "autoimport.doubleQuotes": true,
   "workbench.layoutControl.enabled": false,
   "editor.quickSuggestions": {
@@ -122,12 +122,12 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 14,
+  "workbench.tree.indent": 12,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "editor.lineHeight": 2.1,
   "editor.fontLigatures": true,
+  "editor.lineHeight": 36,
   "editor.tabCompletion": "on",
   "vscord.status.details.text.idle": "Probably Making Coffee!",
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
@@ -146,7 +146,7 @@
   "editor.bracketPairColorization.enabled": true,
   "workbench.layoutControl.type": "menu",
   "editor.suggest.preview": false,
-  "editor.cursorWidth": 3,
+  "editor.cursorWidth": 2,
   "breadcrumbs.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.glyphMargin": false,
@@ -159,7 +159,7 @@
   "editor.scrollBeyondLastLine": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "editor.occurrencesHighlight": "off",
-  "scm.diffDecorations": "none",
+  "scm.diffDecorations": "gutter",
   "scm.diffDecorationsGutterPattern": {
     "added": false,
     "modified": false
@@ -173,11 +173,13 @@
     "source.sortImports": "always"
   },
   "vscord.status.details.text.editing": "{workspace} {problems}",
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "underline",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "bottom",
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "NEVO",
   "workbench.iconTheme": "material-icon-theme",
-  "window.commandCenter": false
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.enablePreview": false
 }

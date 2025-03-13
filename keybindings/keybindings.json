@@ -331,5 +331,15 @@
     "key": "ctrl+.",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "shift+f",
+    "command": "workbench.action.toggleFullScreen",
+    "when": "!isIOS && vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.toggleFullScreen",
+    "when": "!isIOS"
   }
 ]

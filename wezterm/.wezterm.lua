@@ -1,20 +1,20 @@
--- Pull in the wezterm API
 local wezterm = require("wezterm")
 local act = wezterm.action
 local config = wezterm.config_builder()
 
-config.front_end = "OpenGL"
+config.initial_rows = 24
 config.max_fps = 144
 config.default_cursor_style = "BlinkingBar"
 config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.term = "xterm-256color" -- Set the terminal type
 
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+config.font = wezterm.font("mononoki")
 config.cell_width = 0.9
 
 config.window_background_opacity = 1
-config.prefer_egl = true
+config.prefer_egl = false
+config.front_end = "OpenGL"
 config.font_size = 16
 
 config.window_padding = {
@@ -24,12 +24,11 @@ config.window_padding = {
 	bottom = 0,
 }
 
--- tabs
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
+config.window_close_confirmation = "NeverPrompt"
 
 
--- open wezterm in the middle of the screen
 wezterm.on("gui-startup", function(cmd)
   local screen = wezterm.gui.screens().active
   local ratio = 0.7
@@ -40,11 +39,11 @@ wezterm.on("gui-startup", function(cmd)
       y = (screen.height - height) / 2,
       origin = 'ActiveScreen' }
   }
+  if window then
   window:gui_window():set_inner_size(width, height)
+  end
 end)
 
-
--- For example, changing the color scheme:
 config.color_scheme = "Cloud (terminal.sexy)"
 config.colors = {
 	background = "#0c0b0f",
@@ -78,7 +77,7 @@ config.colors = {
 }
 
 config.window_frame = {
-	font = wezterm.font({ family = "JetBrainsMono Nerd Font", weight = "Regular" }),
+	font = wezterm.font({ family = "mononoki", weight = "Regular" }),
 	active_titlebar_bg = "#0c0b0f",
 }
 

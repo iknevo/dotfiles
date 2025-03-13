@@ -1,7 +1,7 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontSize": 20,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.8,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
   "editor.formatOnSave": true,
@@ -30,8 +30,9 @@
   "vim.foldfix": true,
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.color": "#8ce99a",
-  "vim.highlightedyank.textColor": "black",
+  "vim.highlightedyank.color": "rgba(250, 198, 47, 0.5)",
+  "vim.highlightedyank.duration": 150,
+  "vim.highlightedyank.textColor": "#202020",
   "vim.leader": "<Space>",
   "editor.lineNumbers": "off",
   "[markdown]": {
@@ -43,7 +44,7 @@
     "**/{layout,page}.tsx": "${dirname} ${filename}",
     "**/{layout,page}.jsx": "${dirname} ${filename}"
   },
-  "editor.wordSeparators": "`~!@#%^&*()=+-[{]}\\|;:'\",.<>/?",
+  "editor.wordSeparators": "`~!@#%^&*()=+-_[{]}\\|;:'\",.<>/?",
   "terminal.integrated.cursorStyle": "line",
   "editor.accessibilitySupport": "off",
   "files.autoSave": "onFocusChange",
@@ -51,9 +52,11 @@
   "scm.diffDecorationsGutterWidth": 1,
   "scm.diffDecorationsGutterVisibility": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.fontFamily": "\"JetBrainsMono Nerd Font\"",
+  "terminal.integrated.fontFamily": "mononoki",
   "terminal.integrated.fontSize": 16,
-  "editor.fontFamily": "\"JetBrainsMono Nerd Font\",Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "mononoki",
+  // "editor.fontFamily": "Fira Code Nerd Font",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -102,7 +105,6 @@
   "editor.multiCursorLimit": 1000,
   "editor.cursorBlinking": "expand",
   "autoimport.doubleQuotes": true,
-  "workbench.layoutControl.enabled": false,
   "editor.quickSuggestions": {
     "strings": "on",
     "comments": "off"
@@ -165,7 +167,6 @@
     "modified": false
   },
   "scm.diffDecorationsGutterAction": "none",
-  "workbench.sideBar.location": "right",
   "vscord.status.idle.check": false,
   "vscord.status.idle.enabled": false,
   "editor.codeActionsOnSave": {
@@ -173,13 +174,13 @@
     "source.sortImports": "always"
   },
   "vscord.status.details.text.editing": "{workspace} {problems}",
-  "editor.cursorStyle": "underline",
-  "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "top",
+  "editor.cursorStyle": "line",
   "workbench.colorTheme": "NEVO",
   "workbench.iconTheme": "material-icon-theme",
   "chat.commandCenter.enabled": false,
   "window.commandCenter": false,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.empty.hint": "hidden"
 }

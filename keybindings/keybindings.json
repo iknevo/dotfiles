@@ -341,5 +341,10 @@
     "key": "f11",
     "command": "-workbench.action.toggleFullScreen",
     "when": "!isIOS"
+  },
+  {
+    "key": "shift+t",
+    "command": "editor.emmet.action.matchTag",
+    "when": "(vim.mode == 'Normal' || 'Visual') && (editorTextFocus || !inputFocus)"
   }
 ]

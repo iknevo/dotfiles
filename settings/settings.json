@@ -1,7 +1,7 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontSize": 20,
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 0.7,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
   "editor.formatOnSave": true,
@@ -34,7 +34,7 @@
   "vim.highlightedyank.duration": 150,
   "vim.highlightedyank.textColor": "#202020",
   "vim.leader": "<Space>",
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
@@ -52,11 +52,11 @@
   "scm.diffDecorationsGutterWidth": 1,
   "scm.diffDecorationsGutterVisibility": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.fontFamily": "mononoki",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "terminal.integrated.fontSize": 16,
   // "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontFamily": "mononoki",
-  // "editor.fontFamily": "Fira Code Nerd Font",
+  // "editor.fontFamily": "mononoki",
+  "editor.fontFamily": "FiraCode Nerd Font",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -124,7 +124,7 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 12,
+  "workbench.tree.indent": 8,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -163,10 +163,10 @@
   "editor.occurrencesHighlight": "off",
   "scm.diffDecorations": "gutter",
   "scm.diffDecorationsGutterPattern": {
-    "added": false,
-    "modified": false
+    "added": true,
+    "modified": true
   },
-  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterAction": "diff",
   "vscord.status.idle.check": false,
   "vscord.status.idle.enabled": false,
   "editor.codeActionsOnSave": {
@@ -175,12 +175,12 @@
   },
   "vscord.status.details.text.editing": "{workspace} {problems}",
   "editor.cursorStyle": "line",
-  "workbench.colorTheme": "NEVO",
+  "workbench.colorTheme": "NEVO black",
   "workbench.iconTheme": "material-icon-theme",
   "chat.commandCenter.enabled": false,
   "window.commandCenter": false,
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "json.schemaDownload.enable": false
 }

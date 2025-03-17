@@ -155,7 +155,7 @@
     "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
   },
   {
-    "key": "space c a",
+    "key": "space c e",
     "command": "workbench.action.closeAllEditors",
     "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
   },

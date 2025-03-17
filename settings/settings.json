@@ -1,6 +1,6 @@
 {
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "window.zoomLevel": 1,
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.smoothScrolling": true,
@@ -124,7 +124,7 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 8,
+  "workbench.tree.indent": 10,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -175,12 +175,22 @@
   },
   "vscord.status.details.text.editing": "{workspace} {problems}",
   "editor.cursorStyle": "line",
-  "workbench.colorTheme": "NEVO",
   "workbench.iconTheme": "material-icon-theme",
   "chat.commandCenter.enabled": false,
   "window.commandCenter": false,
   "workbench.editor.enablePreview": false,
   "workbench.activityBar.location": "hidden",
   "workbench.editor.empty.hint": "hidden",
-  "json.schemaDownload.enable": false
+  "json.schemaDownload.enable": false,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "NEVO",
+  "vscode_custom_css.imports": [
+    "file:///E:/visual-studio/custom/custom-vscode.css",
+    "file:///E:/visual-studio/custom/vscode-script.js",
+    "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "animations.Enabled": true,
+  "animations.Default-Duration": 200,
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right"
 }

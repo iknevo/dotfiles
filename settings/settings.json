@@ -186,11 +186,8 @@
   "workbench.colorTheme": "NEVO",
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css",
-    "file:///E:/visual-studio/custom/vscode-script.js",
-    "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    "file:///E:/visual-studio/custom/vscode-script.js"
   ],
-  "animations.Enabled": true,
-  "animations.Default-Duration": 200,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "workbench.sideBar.location": "right"
 }

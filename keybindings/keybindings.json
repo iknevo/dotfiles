@@ -145,14 +145,19 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space p",
+    "key": "space c t",
     "command": "workbench.action.closeActiveEditor",
-    "when": "vim.mode == 'Normal' && editorTextFocus"
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
   },
   {
-    "key": "space q",
+    "key": "space c o",
+    "command": "workbench.action.closeOtherEditors",
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+  },
+  {
+    "key": "space c a",
     "command": "workbench.action.closeAllEditors",
-    "when": "vim.mode == 'Normal' && editorTextFocus"
+    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
   },
   {
     "key": "space space",
@@ -170,6 +175,11 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "space g i",
+    "command": "editor.action.goToImplementation",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
     "key": "space s g",
     "command": "workbench.action.findInFiles",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
@@ -179,14 +189,11 @@
     "command": "runCommands",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)",
     "args": {
-      "commands": [
-        "workbench.view.scm",
-        "workbench.scm.focus"
-      ]
+      "commands": ["workbench.view.scm", "workbench.scm.focus"]
     }
   },
   {
-    "key": "tab",
+    "key": "alt+n",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
@@ -253,23 +260,13 @@
     "command": "list.toggleExpand",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && explorerResourceIsFolder && !inputFocus"
   },
-  // {
-  //   "key": "alt+n",
-  //   "command": "extension.vim_escape",
-  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
-  // },
-  // {
-  //   "key": "escape",
-  //   "command": "-extension.vim_escape",
-  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
-  // },
   {
-    "key": "space s",
+    "key": "alt+s",
     "command": "workbench.action.splitEditor",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space v",
+    "key": "alt+v",
     "command": "workbench.action.splitEditorDown",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
@@ -299,49 +296,9 @@
     "command": "-code-runner.run"
   },
   {
-    "key": "ctrl+c",
-    "command": "todo.toggleCancelled",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "alt+c",
-    "command": "-todo.toggleCancelled",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "todo.toggleDone",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "alt+d",
-    "command": "-todo.toggleDone",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "ctrl+s",
-    "command": "todo.toggleStart",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
-    "key": "alt+s",
-    "command": "-todo.toggleStart",
-    "when": "editorTextFocus && editorLangId == 'todo'"
-  },
-  {
     "key": "ctrl+.",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
-  },
-  {
-    "key": "shift+f",
-    "command": "workbench.action.toggleFullScreen",
-    "when": "!isIOS && vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
-    "key": "f11",
-    "command": "-workbench.action.toggleFullScreen",
-    "when": "!isIOS"
   },
   {
     "key": "shift+t",

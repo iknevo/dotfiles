@@ -44,15 +44,6 @@
   display: block !important;
 }
 
-/* Tooltip box style */
-.monaco-editor-hover,
-.monaco-hover {
-  padding: 10px !important;
-  background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
-  border-radius: 10px !important;
-  border: none !important;
-}
-
 /* Project title's style at the top. */
 .monaco-workbench
   .part.titlebar

@@ -145,19 +145,19 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space c t",
+    "key": "space t c",
     "command": "workbench.action.closeActiveEditor",
-    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space c o",
+    "key": "space t o",
     "command": "workbench.action.closeOtherEditors",
-    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space c e",
+    "key": "space t a",
     "command": "workbench.action.closeAllEditors",
-    "when": "(vim.mode == 'Normal' && editorTextFocus) || !inputFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
     "key": "space space",
@@ -303,6 +303,6 @@
   {
     "key": "shift+t",
     "command": "editor.emmet.action.matchTag",
-    "when": "(vim.mode == 'Normal' || 'Visual') && (editorTextFocus || !inputFocus)"
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   }
 ]

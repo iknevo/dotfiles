@@ -18,14 +18,13 @@
   "editor.guides.bracketPairsHorizontal": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "wordWrapColumn",
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": false,
   "editor.renderWhitespace": "all",
-  "vim.easymotion": true,
   "vim.hlsearch": false,
   "vim.foldfix": true,
   "vim.useSystemClipboard": true,
@@ -142,7 +141,6 @@
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.gpuAcceleration": "on",
-  "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontalScrollbarSize": 2,
   "explorer.decorations.colors": true,
   "editor.bracketPairColorization.enabled": true,
@@ -188,6 +186,8 @@
     "file:///E:/visual-studio/custom/custom-vscode.css",
     "file:///E:/visual-studio/custom/vscode-script.js"
   ],
-  "editor.minimap.enabled": true,
-  "workbench.sideBar.location": "right"
+  "editor.minimap.enabled": false,
+  "vim.easymotion": true,
+  "editor.overviewRulerBorder": false,
+  "editor.wordWrapColumn": 85
 }

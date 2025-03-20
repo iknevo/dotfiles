@@ -26,8 +26,10 @@
 
 .composite.title h2 {
   text-transform: uppercase;
-  color: #16a3ac !important;
   font-size: 13px !important ;
+}
+.sidebar .title-label {
+  padding: 0 !important;
 }
 
 /* Scroll Bar */

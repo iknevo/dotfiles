@@ -44,7 +44,7 @@
   "editor.hover.enabled": true,
   "editor.lightbulb.enabled": "off",
   "editor.lineHeight": 2,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "off",
   "editor.linkedEditing": true,
   "editor.matchBrackets": "always",
   "editor.minimap.showSlider": "always",
@@ -82,8 +82,7 @@
   "editor.unicodeHighlight.includeStrings": false,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordSeparators": "`~!@#%^&*()=+-_[{]}\\|;:'\",.<>/?",
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 85,
+  "editor.wordWrap": "on",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -120,8 +119,7 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "path-intellisense.absolutePathToWorkspace": false,
   "reactSnippets.settings.importReactOnTop": false,
-  "scm.diffDecorations": "gutter",
-  "scm.diffDecorationsGutterAction": "diff",
+  "scm.diffDecorations": "minimap",
   "scm.diffDecorationsGutterPattern": {
     "added": true,
     "modified": true
@@ -171,7 +169,7 @@
   "window.menuBarVisibility": "compact",
   "window.title": " ",
   "window.zoomLevel": 1,
-  "workbench.activityBar.location": "bottom",
+  "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "NEVO",
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
@@ -190,7 +188,6 @@
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.enableStickyScroll": false,

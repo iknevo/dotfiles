@@ -44,7 +44,7 @@
   "editor.hover.enabled": true,
   "editor.lightbulb.enabled": "off",
   "editor.lineHeight": 2,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.matchBrackets": "always",
   "editor.minimap.showSlider": "always",

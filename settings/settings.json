@@ -147,8 +147,7 @@
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css",
-    "file:///E:/visual-studio/custom/vscode-script.js"
+    "file:///E:/visual-studio/custom/custom-vscode.css"
   ],
   "vscord.status.buttons.button1.enabled": false,
   "vscord.status.buttons.button1.git.active.enabled": false,

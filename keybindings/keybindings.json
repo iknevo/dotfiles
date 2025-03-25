@@ -33,6 +33,11 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus"
   },
   {
+    "key": "ctrl-e",
+    "command": "workbench.action.toggleAuxiliaryBar",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !sideBarFocus"
+  },
+  {
     "args": {
       "commands": [
         "workbench.action.toggleSidebarVisibility",
@@ -162,6 +167,11 @@
   {
     "command": "workbench.action.quickOpen",
     "key": "space space",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "command": "workbench.action.toggleFullScreen",
+    "key": "shift-f",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
@@ -324,5 +334,13 @@
     "command": "-extension.vim_ctrl+d",
     "key": "ctrl+d",
     "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "doublebot.newConvo"
+  },
+  {
+    "key": "alt+j",
+    "command": "-doublebot.newConvo"
   }
 ]

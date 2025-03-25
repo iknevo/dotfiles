@@ -29,19 +29,26 @@ config.tab_bar_at_bottom = true
 config.window_close_confirmation = "NeverPrompt"
 
 
-wezterm.on("gui-startup", function(cmd)
-  local screen = wezterm.gui.screens().active
-  local ratio = 0.7
-  local width, height = screen.width * ratio, screen.height * ratio
-  local tab, pane, window = wezterm.mux.spawn_window {
-    position = {
-      x = (screen.width - width) / 2,
-      y = (screen.height - height) / 2,
-      origin = 'ActiveScreen' }
-  }
-  if window then
-  window:gui_window():set_inner_size(width, height)
-  end
+-- wezterm.on("gui-startup", function(cmd)
+--   local screen = wezterm.gui.screens().active
+--   local ratio = 0.7
+--   local width, height = screen.width * ratio, screen.height * ratio
+--   local tab, pane, window = wezterm.mux.spawn_window {
+--     position = {
+--       x = (screen.width - width) / 2,
+--       y = (screen.height - height) / 2,
+--       origin = 'ActiveScreen' }
+--   }
+--   if window then
+--   window:gui_window():set_inner_size(width, height)
+--   end
+-- end)
+
+-- start in full screen mode
+local mux = wezterm.mux
+wezterm.on('gui-startup', function()
+  local tab, pane, window = mux.spawn_window({})
+  window:gui_window():toggle_fullscreen()
 end)
 
 config.color_scheme = "Cloud (terminal.sexy)"

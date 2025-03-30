@@ -1,6 +1,6 @@
-.window-appicon {
+/* .window-appicon {
   visibility: hidden;
-}
+} */
 
 /* Toolbars when tabs are enabled. */
 .monaco-workbench
@@ -133,4 +133,22 @@
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
   color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* work bench reset */
+.monaco-workbench
+  .composite-bar
+  .monaco-action-bar:not(.vertical)
+  .action-item {
+  height: 35px !important;
+}
+
+.monaco-workbench .composite-bar .monaco-action-bar .action-item .action-label {
+  font-size: 16px !important;
+}
+
+.monaco-workbench .progress-badge > .badge-content:before {
+  transform: none !important;
+  left: 1px !important;
+  top: 1px !important;
 }

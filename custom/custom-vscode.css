@@ -1,6 +1,6 @@
-/* .window-appicon {
+.window-appicon {
   visibility: hidden;
-} */
+}
 
 /* Toolbars when tabs are enabled. */
 .monaco-workbench
@@ -37,7 +37,6 @@
   position: absolute !important;
   right: 1px !important;
   width: 1px !important;
-  background: #16a3ac !important;
   left: auto !important;
 }
 
@@ -93,12 +92,12 @@
 /* Command Palette */
 .quick-input-widget {
   border-radius: 10px !important;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle,
     rgba(2, 0, 36, 1) 0%,
     rgba(28, 60, 62, 1) 100%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
 }
 
 /* Remove background for lists */
@@ -107,9 +106,9 @@
 }
 
 /* List hover */
-.monaco-list-row:hover {
+/* .monaco-list-row:hover {
   background: rgba(0, 0, 0, 0.2) !important;
-}
+} */
 
 .notifications-toasts .monaco-list-row:hover {
   background: none !important;
@@ -120,12 +119,12 @@
   border-radius: 10px !important;
   padding: 8px !important;
   border: none !important;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle,
     rgba(2, 0, 36, 1) 0%,
     rgba(28, 60, 62, 1) 100%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
   font-family: "FiraCode Nerd Font" !important;
   margin-bottom: 16px !important;
 }

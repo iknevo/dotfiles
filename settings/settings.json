@@ -31,7 +31,7 @@
   // "editor.fontFamily": "mononoki",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 19,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": true,
@@ -179,7 +179,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "multiple",
-  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.tabActionCloseVisibility": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.layoutControl.type": "menu",
@@ -193,5 +193,6 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.colorTheme": "NEVO",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "doublebot.chatModel": "Claude 3.7 Sonnet"
 }

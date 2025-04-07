@@ -17,6 +17,26 @@
     "key": "alt-j"
   },
   {
+    "command": "extension.vim_ctrl+u",
+    "key": "ctrl+k",
+    "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
+  },
+  {
+    "command": "-extension.vim_ctrl+u",
+    "key": "ctrl+u",
+    "when": "editorTextFocus && vim.active && vim.use<C-u> && !inDebugRepl"
+  },
+  {
+    "command": "extension.vim_ctrl+d",
+    "key": "ctrl+j",
+    "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+  },
+  {
+    "command": "-extension.vim_ctrl+d",
+    "key": "ctrl+d",
+    "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+  },
+  {
     "command": "workbench.action.showAllEditors",
     "key": "space ,",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"

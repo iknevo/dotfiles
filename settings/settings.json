@@ -168,6 +168,10 @@
   "window.menuBarVisibility": "compact",
   "window.title": " ",
   "window.titleBarStyle": "custom",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "chat.agent.enabled": false,
   "window.zoomLevel": 1,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
@@ -193,6 +197,5 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.colorTheme": "NEVO",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "top",
-  "doublebot.chatModel": "Claude 3.7 Sonnet"
+  "workbench.activityBar.location": "bottom"
 }

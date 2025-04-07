@@ -135,7 +135,7 @@
 }
 
 /* work bench reset */
-.monaco-workbench
+/* .monaco-workbench
   .composite-bar
   .monaco-action-bar:not(.vertical)
   .action-item {
@@ -150,4 +150,4 @@
   transform: none !important;
   left: 1px !important;
   top: 1px !important;
-}
+} */

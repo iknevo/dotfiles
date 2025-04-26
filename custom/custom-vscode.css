@@ -1,5 +1,6 @@
 .window-appicon {
   visibility: hidden;
+  display: none;
 }
 
 /* Toolbars when tabs are enabled. */
@@ -92,22 +93,11 @@
 /* Command Palette */
 .quick-input-widget {
   border-radius: 10px !important;
-  /* background-image: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(28, 60, 62, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
 }
 
 /* Remove background for lists */
-.monaco-list-rows {
+/* .monaco-list-rows {
   background: transparent !important;
-}
-
-/* List hover */
-/* .monaco-list-row:hover {
-  background: rgba(0, 0, 0, 0.2) !important;
 } */
 
 .notifications-toasts .monaco-list-row:hover {
@@ -119,12 +109,6 @@
   border-radius: 10px !important;
   padding: 8px !important;
   border: none !important;
-  /* background-image: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(28, 60, 62, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
   font-family: "FiraCode Nerd Font" !important;
   margin-bottom: 16px !important;
 }
@@ -133,21 +117,3 @@
 .monaco-inputbox input::placeholder {
   color: rgba(255, 255, 255, 0.3) !important;
 }
-
-/* work bench reset */
-/* .monaco-workbench
-  .composite-bar
-  .monaco-action-bar:not(.vertical)
-  .action-item {
-  height: 35px !important;
-}
-
-.monaco-workbench .composite-bar .monaco-action-bar .action-item .action-label {
-  font-size: 16px !important;
-}
-
-.monaco-workbench .progress-badge > .badge-content:before {
-  transform: none !important;
-  left: 1px !important;
-  top: 1px !important;
-} */

@@ -31,12 +31,12 @@
   // "editor.fontFamily": "mononoki",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
-  "editor.fontSize": 19,
+  "editor.fontSize": 18,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.highlightActiveIndentation": true,
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.hover.delay": 500,
@@ -51,8 +51,6 @@
   "editor.multiCursorLimit": 1000,
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
-  "editor.padding.bottom": 2,
-  "editor.padding.top": 2,
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "on"
@@ -166,7 +164,7 @@
   "window.commandCenter": false,
   "window.density.editorTabHeight": "default",
   "window.menuBarVisibility": "compact",
-  "window.title": " ",
+  "window.title": "NEVO",
   "window.titleBarStyle": "custom",
   "github.copilot.editor.enableCodeActions": false,
   "github.copilot.nextEditSuggestions.enabled": false,
@@ -194,7 +192,6 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.activityBar.location": "bottom",
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
@@ -202,6 +199,7 @@
     "scminput": false
   },
   "python.createEnvironment.trigger": "off",
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "NEVO"
+  "workbench.colorTheme": "NEVO",
+  "window.customTitleBarVisibility": "auto",
+  "workbench.activityBar.location": "top"
 }

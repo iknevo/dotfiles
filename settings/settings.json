@@ -168,7 +168,6 @@
   "window.menuBarVisibility": "compact",
   "window.title": " ",
   "window.titleBarStyle": "custom",
-  "github.copilot.editor.enableAutoCompletions": false,
   "github.copilot.editor.enableCodeActions": false,
   "github.copilot.nextEditSuggestions.enabled": false,
   "chat.agent.enabled": false,
@@ -195,7 +194,14 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.colorTheme": "NEVO",
+  "workbench.activityBar.location": "bottom",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "python.createEnvironment.trigger": "off",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "bottom"
+  "workbench.colorTheme": "NEVO"
 }

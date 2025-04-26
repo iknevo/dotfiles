@@ -33,19 +33,6 @@
   padding: 0 !important;
 }
 
-/* Scroll Bar */
-.slider {
-  position: absolute !important;
-  right: 1px !important;
-  width: 1px !important;
-  left: auto !important;
-}
-
-.codicon-toolbar-more,
-.codicon-word-wrap {
-  display: block !important;
-}
-
 /* Project title's style at the top. */
 .monaco-workbench
   .part.titlebar

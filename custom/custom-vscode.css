@@ -96,9 +96,9 @@
 }
 
 /* Remove background for lists */
-/* .monaco-list-rows {
+.monaco-list-rows {
   background: transparent !important;
-} */
+}
 
 .notifications-toasts .monaco-list-row:hover {
   background: none !important;

@@ -80,7 +80,6 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordSeparators": "`~!@#%^&*()=+-_[{]}\\|;:'\",.<>/?",
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 85,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -201,5 +200,11 @@
   "python.createEnvironment.trigger": "off",
   "workbench.colorTheme": "NEVO",
   "window.customTitleBarVisibility": "auto",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  // 111
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto"
 }

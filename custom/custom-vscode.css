@@ -1,6 +1,6 @@
 .window-appicon {
-  visibility: hidden;
-  display: none;
+  visibility: hidden !important;
+  display: none !important;
 }
 
 /* Toolbars when tabs are enabled. */

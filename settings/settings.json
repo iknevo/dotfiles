@@ -31,7 +31,7 @@
   // "editor.fontFamily": "mononoki",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": true,
@@ -144,7 +144,8 @@
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css"
+    "file:///E:/visual-studio/custom/custom-vscode.css",
+    "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
   "vscord.status.buttons.button1.enabled": false,
   "vscord.status.buttons.button1.git.active.enabled": false,
@@ -198,7 +199,6 @@
     "scminput": false
   },
   "python.createEnvironment.trigger": "off",
-  "workbench.colorTheme": "NEVO",
   "window.customTitleBarVisibility": "auto",
   "workbench.activityBar.location": "top",
   // 111
@@ -206,5 +206,6 @@
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto"
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "workbench.colorTheme": "NEVO black"
 }

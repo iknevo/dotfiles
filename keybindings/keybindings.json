@@ -215,6 +215,16 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"
   },
   {
+    "key": "space s f",
+    "command": "actions.find",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"
+  },
+  {
+    "key": "space s f",
+    "command": "-actions.find",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"
+  },
+  {
     "args": {
       "commands": ["workbench.view.scm", "workbench.scm.focus"]
     },
@@ -339,5 +349,15 @@
     "command": "editor.emmet.action.matchTag",
     "key": "shift+t",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "alt+.",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   }
 ]

@@ -84,6 +84,14 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
+  "eslint.enable": true,
+  "eslint.options": {
+    "overrideConfig": {
+      "rules": {
+        "no-unused-vars": ["warn", { "varsIgnorePattern": "^[A-Z_]|^motion$" }]
+      }
+    }
+  },
   "eslint.rules.customizations": [
     {
       "rule": "*",
@@ -207,5 +215,5 @@
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  "workbench.colorTheme": "NEVO black"
+  "workbench.colorTheme": "NEVO"
 }

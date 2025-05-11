@@ -74,7 +74,6 @@
   "editor.unicodeHighlight.includeStrings": false,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordSeparators": "`~!@#%^&*()=+-_[{]}\\|;:'\",.<>/?",
-  "editor.wordWrap": "wordWrapColumn",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -143,9 +142,9 @@
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": false,
-  // "vscode_custom_css.imports": [
-  //   "file:///E:/visual-studio/custom/custom-vscode.css"
-  // ],
+  "vscode_custom_css.imports": [
+    "file:///E:/visual-studio/custom/custom-vscode.css"
+  ],
   //   "vscord.status.buttons.button1.enabled": false,
   //   "vscord.status.buttons.button1.git.active.enabled": false,
   //   "vscord.status.buttons.button1.git.idle.enabled": false,
@@ -162,7 +161,7 @@
   //   "vscord.status.state.text.editing": "Editing  {file_name}{file_extension}",
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "window.title": " ",
+  "window.title": "NEVO",
   "chat.agent.enabled": false,
   "window.zoomLevel": 0.8,
   "workbench.editor.customLabels.patterns": {
@@ -174,7 +173,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "short",
-  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.tabActionCloseVisibility": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.layoutControl.type": "both",
@@ -194,5 +193,8 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "workbench.colorTheme": "NEVO",
   "git.confirmSync": false,
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.wrappingIndent": "same"
 }

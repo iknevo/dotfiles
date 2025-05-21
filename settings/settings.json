@@ -182,7 +182,7 @@
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "same",
-  "workbench.colorTheme": "NEVO",
+  "workbench.colorTheme": "poimandres",
   "codeium.enableCodeLens": false,
   //
   "workbench.activityBar.location": "hidden",
@@ -193,5 +193,6 @@
   "files.insertFinalNewline": true,
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false
 }

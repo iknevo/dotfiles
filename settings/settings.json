@@ -61,7 +61,7 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.showFoldingControls": "never",
   "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "inline",
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.suggest.insertMode": "insert",
@@ -136,7 +136,7 @@
   "vim.highlightedyank.textColor": "#000000",
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
-  "vim.useSystemClipboard": true,
+  "vim.useSystemClipboard": false,
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css"
   ],
@@ -175,15 +175,16 @@
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "same",
-  "codeium.enableCodeLens": false,
   "workbench.activityBar.location": "bottom",
-  "workbench.editor.showTabs": "single",
+  "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
-  "workbench.sideBar.location": "right",
   "files.insertFinalNewline": true,
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "extensions.ignoreRecommendations": true,
+  "workbench.colorTheme": "NEVO",
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "NEVO clean"
+  "editor.hover.enabled": false,
+  "svelte.enable-ts-plugin": true,
+  "terminal.integrated.env.windows": {}
 }

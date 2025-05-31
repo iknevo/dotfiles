@@ -184,7 +184,6 @@
   "extensions.ignoreRecommendations": true,
   "workbench.colorTheme": "NEVO",
   "editor.minimap.enabled": false,
-  "editor.hover.enabled": false,
-  "svelte.enable-ts-plugin": true,
-  "terminal.integrated.env.windows": {}
+  "editor.hover.enabled": true,
+  "svelte.enable-ts-plugin": true
 }

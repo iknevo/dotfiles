@@ -370,7 +370,7 @@
     "command": "-undo"
   },
   {
-    "key": "ctrl+u",
+    "key": "shift+u",
     "command": "redo",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },

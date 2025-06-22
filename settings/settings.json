@@ -28,7 +28,7 @@
   // "editor.fontFamily": "JetBrainsMono Nerd Font",
   // "editor.fontFamily": "mononoki",
   "editor.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 2.5,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
@@ -62,7 +62,7 @@
   "editor.snippetSuggestions": "inline",
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.suggest.insertMode": "insert",
+  "editor.suggest.insertMode": "replace",
   "editor.suggest.preview": false,
   "editor.suggestLineHeight": 36,
   "editor.tabCompletion": "on",
@@ -134,13 +134,13 @@
   "vim.highlightedyank.textColor": "#000000",
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
-  "vim.useSystemClipboard": false,
+  "vim.useSystemClipboard": true,
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/custom/custom-vscode.css"
   ],
   "window.title": "${rootName}",
   "chat.agent.enabled": false,
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 1,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
     "**/{layout,page}.tsx": "${dirname} ${filename}"
@@ -176,7 +176,6 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "NEVO",
   "editor.minimap.enabled": false,
   "editor.hover.enabled": true,
   "svelte.enable-ts-plugin": true,
@@ -193,9 +192,9 @@
   "vscord.app.privacyMode.enable": false,
   "vscord.status.details.idle.enabled": false,
   "vscord.behaviour.suppressNotifications": true,
-  "vscord.behaviour.supressRpcCouldNotConnect": true,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "NEVO"
 }

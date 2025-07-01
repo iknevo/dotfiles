@@ -6,7 +6,6 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "autoimport.doubleQuotes": true,
-  "breadcrumbs.enabled": false,
   "css.lint.unknownAtRules": "ignore",
   "css.lint.unknownProperties": "ignore",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -77,19 +76,6 @@
     "typescript": "typescriptreact"
   },
   "eslint.enable": true,
-  "eslint.options": {
-    "overrideConfig": {
-      "rules": {
-        "no-unused-vars": ["warn", { "varsIgnorePattern": "^[A-Z_]|^motion$" }]
-      }
-    }
-  },
-  "eslint.rules.customizations": [
-    {
-      "rule": "*",
-      "severity": "warn"
-    }
-  ],
   "eslint.run": "onSave",
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -116,7 +102,7 @@
     "modified": true
   },
   "scm.diffDecorationsGutterVisibility": "always",
-  "scm.diffDecorationsGutterWidth": 5,
+  "scm.diffDecorationsGutterWidth": 3,
   "scss.lint.unknownAtRules": "ignore",
   "scss.lint.unknownProperties": "ignore",
   "terminal.integrated.cursorBlinking": true,
@@ -196,5 +182,8 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "NEVO"
+  "workbench.colorTheme": "NEVO",
+  "currentFilePath.defaultPathStartsFrom": "workSpace",
+  "currentFilePath.defaultPathStyle": "windows",
+  "breadcrumbs.enabled": false
 }

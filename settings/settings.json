@@ -126,7 +126,7 @@
   ],
   "window.title": "${rootName}",
   "chat.agent.enabled": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.8,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
     "**/{layout,page}.tsx": "${dirname} ${filename}"
@@ -162,7 +162,6 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "extensions.ignoreRecommendations": true,
-  "editor.minimap.enabled": false,
   "editor.hover.enabled": true,
   "svelte.enable-ts-plugin": true,
   "vscord.status.idle.check": false,
@@ -185,5 +184,6 @@
   "workbench.colorTheme": "NEVO",
   "currentFilePath.defaultPathStartsFrom": "workSpace",
   "currentFilePath.defaultPathStyle": "windows",
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false
 }

@@ -189,7 +189,7 @@ config.font_size = 16
 config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 
 -- tmux
-config.leader = { key = "k", mods = "ALT", timeout_milliseconds = 2000 }
+config.leader = { key = "j", mods = "ALT", timeout_milliseconds = 2000 }
 config.keys = {
     {
         mods = "LEADER",

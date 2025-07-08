@@ -156,7 +156,7 @@ config.default_cursor_style = "BlinkingBar"
 -- -- start in a certain size
 wezterm.on("gui-startup", function(cmd)
   local screen = wezterm.gui.screens().active
-  local ratio = 0.7
+  local ratio = 0.8
   local width, height = screen.width * ratio, screen.height * ratio
   local tab, pane, window = wezterm.mux.spawn_window {
     position = {
@@ -277,6 +277,7 @@ config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
+config.tab_max_width = 30
 
 -- tmux status
 wezterm.on("update-right-status", function(window, _)

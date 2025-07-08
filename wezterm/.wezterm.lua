@@ -144,7 +144,6 @@ if wezterm.config_builder then
     config = wezterm.config_builder()
 end
 
-
 config.window_padding = {
 	left = 0,
 	right = 0,

@@ -303,7 +303,7 @@ wezterm.on("update-right-status", function(window, _)
     })
 end)
 
-config.color_scheme = "Cloud (terminal.sexy)"
+-- config.color_scheme = "Cloud (terminal.sexy)"
 config.colors = {
 	background = "#0c0b0f",
 	cursor_border = "#ffffff",
@@ -327,10 +327,9 @@ config.colors = {
 			italic = false,
 			strikethrough = false,
 		},
-
 		new_tab = {
 			bg_color = "#0c0b0f",
-			fg_color = "white",
+			fg_color = "#0F4C5C",
 		},
 	},
 }

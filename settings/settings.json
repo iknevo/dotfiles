@@ -126,7 +126,7 @@
   ],
   "window.title": "${rootName}",
   "chat.agent.enabled": false,
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 1,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
     "**/{layout,page}.tsx": "${dirname} ${filename}"
@@ -158,7 +158,6 @@
   "workbench.activityBar.location": "bottom",
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
-  "files.insertFinalNewline": true,
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "extensions.ignoreRecommendations": true,
@@ -185,5 +184,7 @@
   "currentFilePath.defaultPathStartsFrom": "workSpace",
   "currentFilePath.defaultPathStyle": "windows",
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "codeium.enableCodeLens": false,
+  "workbench.activityBar.orientation": "vertical"
 }

@@ -29,9 +29,9 @@ config.default_cursor_style = "BlinkingBar"
 -- 	end
 -- end)
 local mux = wezterm.mux
-wezterm.on('gui-startup', function()
-  local tab, pane, window = mux.spawn_window({})
-  window:gui_window():toggle_fullscreen()
+wezterm.on("gui-startup", function()
+	local tab, pane, window = mux.spawn_window({})
+	window:gui_window():toggle_fullscreen()
 end)
 
 config.default_prog = { "pwsh.exe", "-NoLogo" }
@@ -43,9 +43,9 @@ config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 
 -- tmux
 -- config.leader = { key = "l", mods = "ALT", timeout_milliseconds = 2000 }
-config.leader = { key = "l", mods = "ALT" }
+config.leader = { key = "j", mods = "ALT" }
 config.keys = {
-  { key = "f", mods = "LEADER",       action="TogglePaneZoomState" },
+	{ key = "f", mods = "LEADER", action = "TogglePaneZoomState" },
 	{
 		mods = "LEADER",
 		key = "n",
@@ -91,12 +91,10 @@ config.keys = {
 		key = "l",
 		action = wezterm.action.ActivatePaneDirection("Right"),
 	},
-  { key = "H", mods = "LEADER", action=wezterm.action{AdjustPaneSize={"Left", 5}}},
-  { key = "J", mods = "LEADER", action=wezterm.action{AdjustPaneSize={"Down", 5}}},
-  { key = "K", mods = "LEADER", action=wezterm.action{AdjustPaneSize={"Up", 5}}},
-  { key = "L", mods = "LEADER", action=wezterm.action{AdjustPaneSize={"Right", 5}}},
-  { key ="v",  mods="CTRL",    action=wezterm.action.PasteFrom 'Clipboard'},
-  { key ="c",  mods="CTRL",    action=wezterm.action.CopyTo 'Clipboard'},
+	{ key = "H", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Left", 5 } }) },
+	{ key = "J", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Down", 5 } }) },
+	{ key = "K", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Up", 5 } }) },
+	{ key = "L", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Right", 5 } }) },
 }
 
 for i = 0, 9 do

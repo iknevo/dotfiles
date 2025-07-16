@@ -27,7 +27,7 @@
   // "editor.fontFamily": "JetBrainsMono Nerd Font",
   // "editor.fontFamily": "mononoki",
   "editor.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.lineHeight": 2.5,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
@@ -180,11 +180,19 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "NEVO",
+  "workbench.colorTheme": "NEVO black",
   "currentFilePath.defaultPathStartsFrom": "workSpace",
   "currentFilePath.defaultPathStyle": "windows",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "codeium.enableCodeLens": false,
-  "workbench.activityBar.orientation": "vertical"
+  "workbench.activityBar.orientation": "vertical",
+  "gocodeo.hasShownWalkthrough": true,
+  "gocodeo.authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODQxMzE1ODMsImlhdCI6MTc1MjU5NTU4Mywic3ViIjoiNjg3NjdjN2ZlZjk0ZmE4MGVhZGEyYTcwIiwiZW1haWwiOiJuZXZvZXhpc3RzQGdtYWlsLmNvbSJ9.4ldV2PxqAOMqcEJcdkFEeUUxqXlcXOuCjzbzEn3TLsQ",
+  "gocodeo.jsTestFramework": "Jest",
+  "gocodeo.NumberOfTests": 6,
+  "gocodeo.anthropic": "",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
 }

@@ -382,5 +382,10 @@
     "key": "shift+alt+o",
     "command": "-editor.action.organizeImports",
     "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "command": "workbench.action.closeWindow",
+    "key": "alt+q",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"
   }
 ]

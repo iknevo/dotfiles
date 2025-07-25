@@ -106,7 +106,7 @@ for i = 0, 9 do
 end
 
 -- tab bar
-config.hide_tab_bar_if_only_one_tab = false
+config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
@@ -135,7 +135,9 @@ wezterm.on("update-right-status", function(window, _)
 	}))
 end)
 
-config.color_scheme = "Cloud (terminal.sexy)"
+-- config.color_scheme = "Cloud (terminal.sexy)"
+-- config.color_scheme = 'Geohot (Gogh)'
+config.color_scheme = 'Canvased Pastel (terminal.sexy)'
 config.colors = {
 	background = "#0c0b0f",
 	cursor_border = "#ffffff",

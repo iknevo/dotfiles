@@ -17,7 +17,7 @@
     "source.sortImports": "always"
   },
   "editor.copyWithSyntaxHighlighting": true,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
@@ -30,7 +30,6 @@
   "editor.fontSize": 14,
   "editor.lineHeight": 2.5,
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
@@ -47,7 +46,7 @@
     "comments": "off",
     "strings": "on"
   },
-  "editor.renderLineHighlight": "gutter",
+  "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "boundary",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.horizontalScrollbarSize": 0,
@@ -122,7 +121,8 @@
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css"
+    "file:///E:/visual-studio/custom/custom-vscode.css",
+    "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
   "window.title": "${rootName}",
   "chat.agent.enabled": false,
@@ -137,7 +137,6 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.tabActionCloseVisibility": true,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.type": "both",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
@@ -151,11 +150,9 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "git.confirmSync": false,
-  "workbench.productIconTheme": "fluent-icons",
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "same",
-  "workbench.activityBar.location": "bottom",
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
   "editor.overviewRulerBorder": false,
@@ -180,19 +177,16 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "NEVO black",
+  "workbench.colorTheme": "NEVO",
   "currentFilePath.defaultPathStartsFrom": "workSpace",
   "currentFilePath.defaultPathStyle": "windows",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
-  "codeium.enableCodeLens": false,
   "workbench.activityBar.orientation": "vertical",
-  "gocodeo.hasShownWalkthrough": true,
-  "gocodeo.authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODQxMzE1ODMsImlhdCI6MTc1MjU5NTU4Mywic3ViIjoiNjg3NjdjN2ZlZjk0ZmE4MGVhZGEyYTcwIiwiZW1haWwiOiJuZXZvZXhpc3RzQGdtYWlsLmNvbSJ9.4ldV2PxqAOMqcEJcdkFEeUUxqXlcXOuCjzbzEn3TLsQ",
-  "gocodeo.jsTestFramework": "Jest",
-  "gocodeo.NumberOfTests": 6,
-  "gocodeo.anthropic": "",
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "top",
+  "editor.formatOnSave": true
 }

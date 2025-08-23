@@ -69,7 +69,7 @@
   "editor.unicodeHighlight.includeComments": false,
   "editor.unicodeHighlight.includeStrings": false,
   "editor.unicodeHighlight.nonBasicASCII": false,
-  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.wordSeparators": "~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -83,9 +83,12 @@
   "explorer.decorations.colors": true,
   "explorer.openEditors.visible": 1,
   "files.associations": {
-    "*.css": "css"
+    "*.css": "css",
+    "*.svg": "xml"
   },
-  "files.autoSave": "onFocusChange",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
   "files.trimTrailingWhitespace": true,
   "git.openRepositoryInParentFolders": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -93,7 +96,6 @@
   "less.lint.unknownAtRules": "ignore",
   "less.lint.unknownProperties": "ignore",
   "liveServer.settings.donotShowInfoMsg": true,
-  "material-icon-theme.hidesExplorerArrows": true,
   "reactSnippets.settings.importReactOnTop": false,
   "scm.diffDecorations": "all",
   "scm.diffDecorationsGutterPattern": {
@@ -126,7 +128,6 @@
   ],
   "window.title": "${rootName}",
   "chat.agent.enabled": false,
-  "window.zoomLevel": 1,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}",
     "**/{layout,page}.tsx": "${dirname} ${filename}"
@@ -150,13 +151,9 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "git.confirmSync": false,
-  "editor.wordWrap": "on",
-  "editor.wordWrapColumn": 80,
   "editor.wrappingIndent": "same",
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
   "extensions.ignoreRecommendations": true,
   "editor.hover.enabled": true,
   "svelte.enable-ts-plugin": true,
@@ -182,11 +179,22 @@
   "currentFilePath.defaultPathStyle": "windows",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
-  "workbench.activityBar.orientation": "vertical",
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.hidesExplorerArrows": true,
   "workbench.activityBar.location": "top",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "workbench.activityBar.orientation": "vertical",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "search.searchOnType": false,
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "wordWrapColumn",
+  "typescript.updateImportsOnFileMove.enabled": "never"
 }

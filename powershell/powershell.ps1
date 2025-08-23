@@ -1,10 +1,16 @@
 oh-my-posh init pwsh --config 'E:\visual-studio\oh-my-posh\nevo.omp.json' | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
-Set-Alias vscode "C:\Users\nevoo\AppData\Local\Programs\Microsoft VS Code\bin\code.cmd"
+
+# Alias
+Set-Alias code "C:\Users\nevoo\AppData\Local\Programs\Microsoft VS Code\bin\code.cmd"
+Set-Alias -Name vim -Value nvim
 
 Import-Module PSReadLine
 Set-PSReadLineKeyHandler -Key Tab -Function AcceptSuggestion
+
+
+
 Remove-Item alias:cd -Force
 
 function cd {

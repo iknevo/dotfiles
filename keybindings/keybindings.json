@@ -356,24 +356,6 @@
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
   },
   {
-    "key": "u",
-    "command": "undo",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
-    "key": "ctrl+z",
-    "command": "-undo"
-  },
-  {
-    "key": "shift+u",
-    "command": "redo",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
-    "key": "ctrl+shift+z",
-    "command": "-redo"
-  },
-  {
     "key": "space i",
     "command": "editor.action.organizeImports",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"

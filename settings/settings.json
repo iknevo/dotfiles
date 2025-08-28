@@ -1,9 +1,7 @@
 {
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.sortImports": "always"
   },
   "autoimport.doubleQuotes": true,
   "css.lint.unknownAtRules": "ignore",
@@ -12,10 +10,6 @@
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-    "source.sortImports": "always"
-  },
   "editor.copyWithSyntaxHighlighting": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -126,11 +120,11 @@
     "file:///E:/visual-studio/custom/custom-vscode.css",
     "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
-  "window.title": "${rootName}",
+  "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${activeRepositoryBranchName}${separator}${dirty}",
   "chat.agent.enabled": false,
   "workbench.editor.customLabels.patterns": {
-    "**/{layout,page}.jsx": "${dirname} ${filename}",
-    "**/{layout,page}.tsx": "${dirname} ${filename}"
+    "**/{layout,page}.jsx": "${dirname} ${filename}.${extname}",
+    "**/{layout,page}.tsx": "${dirname} ${filename}.${extname}"
   },
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.empty.hint": "hidden",
@@ -152,31 +146,17 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "git.confirmSync": false,
   "editor.wrappingIndent": "same",
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "workbench.statusBar.visible": true,
   "extensions.ignoreRecommendations": true,
   "editor.hover.enabled": true,
   "svelte.enable-ts-plugin": true,
-  "vscord.status.idle.check": false,
-  "vscord.status.idle.enabled": false,
-  "vscord.status.problems.enabled": false,
-  "vscord.status.details.text.idle": "Probably making coffee!",
-  "vscord.status.details.text.notInFile": "Probably making coffee!",
-  "vscord.status.details.text.viewing": "{workspace}",
-  "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
-  "vscord.status.details.text.editing": "{workspace}",
-  "vscord.status.state.text.viewing": "Editing {file_name}{file_extension}",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "vscord.app.privacyMode.enable": false,
-  "vscord.status.details.idle.enabled": false,
-  "vscord.behaviour.suppressNotifications": true,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "workbench.colorTheme": "NEVO",
-  "currentFilePath.defaultPathStartsFrom": "workSpace",
-  "currentFilePath.defaultPathStyle": "windows",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "[svelte]": {
@@ -189,12 +169,9 @@
   "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1,
-  "workbench.activityBar.orientation": "vertical",
   "files.exclude": {
     "**/node_modules": true
   },
   "search.searchOnType": false,
-  "editor.wordWrapColumn": 100,
-  "editor.wordWrap": "wordWrapColumn",
-  "typescript.updateImportsOnFileMove.enabled": "never"
+  "prettier.printWidth": 100
 }

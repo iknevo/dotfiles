@@ -37,7 +37,7 @@ end)
 config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 config.font = wezterm.font("FiraCode Nerd Font")
-config.font_size = 16
+config.font_size = 14
 
 config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 
@@ -135,18 +135,20 @@ wezterm.on("update-right-status", function(window, _)
 	}))
 end)
 
--- config.color_scheme = "Cloud (terminal.sexy)"
+config.color_scheme = "Cloud (terminal.sexy)"
 -- config.color_scheme = 'Geohot (Gogh)'
-config.color_scheme = 'Canvased Pastel (terminal.sexy)'
+-- config.color_scheme = 'Canvased Pastel (terminal.sexy)'
+-- config.color_scheme = 'Github Dark (Gogh)'
+-- config.color_scheme = 'zenburn (terminal.sexy)'
 config.colors = {
-	background = "#0c0b0f",
-	cursor_border = "#ffffff",
-	cursor_bg = "#ffffff",
+	background = "#000",
+	-- cursor_border = "#ffffff",
+	-- cursor_bg = "#ffffff",
 
 	tab_bar = {
-		background = "#0c0b0f",
+		background = "#000",
 		active_tab = {
-			bg_color = "#0c0b0f",
+			bg_color = "#000",
 			fg_color = "#ffffff",
 			intensity = "Normal",
 			underline = "None",
@@ -154,7 +156,7 @@ config.colors = {
 			strikethrough = false,
 		},
 		inactive_tab = {
-			bg_color = "#0c0b0f",
+			bg_color = "#000",
 			fg_color = "#0F4C5C",
 			intensity = "Normal",
 			underline = "None",
@@ -163,7 +165,7 @@ config.colors = {
 		},
 
 		new_tab = {
-			bg_color = "#0c0b0f",
+			bg_color = "#000",
 			fg_color = "white",
 		},
 	},

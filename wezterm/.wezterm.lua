@@ -41,69 +41,7 @@ config.font_size = 14
 
 config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 
--- tmux
--- config.leader = { key = "l", mods = "ALT", timeout_milliseconds = 2000 }
-config.leader = { key = "j", mods = "ALT" }
-config.keys = {
-	{ key = "f", mods = "LEADER", action = "TogglePaneZoomState" },
-	{
-		mods = "LEADER",
-		key = "n",
-		action = wezterm.action.SpawnTab("CurrentPaneDomain"),
-	},
-	{
-		mods = "LEADER",
-		key = "w",
-		action = wezterm.action.CloseCurrentPane({ confirm = true }),
-	},
-	{
-		mods = "LEADER",
-		key = "p",
-		action = wezterm.action.ActivateTabRelative(-1),
-	},
-	{
-		mods = "LEADER",
-		key = "s",
-		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		mods = "LEADER",
-		key = "v",
-		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
-	},
-	{
-		mods = "LEADER",
-		key = "h",
-		action = wezterm.action.ActivatePaneDirection("Left"),
-	},
-	{
-		mods = "LEADER",
-		key = "j",
-		action = wezterm.action.ActivatePaneDirection("Down"),
-	},
-	{
-		mods = "LEADER",
-		key = "k",
-		action = wezterm.action.ActivatePaneDirection("Up"),
-	},
-	{
-		mods = "LEADER",
-		key = "l",
-		action = wezterm.action.ActivatePaneDirection("Right"),
-	},
-	{ key = "H", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Left", 5 } }) },
-	{ key = "J", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Down", 5 } }) },
-	{ key = "K", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Up", 5 } }) },
-	{ key = "L", mods = "LEADER", action = wezterm.action({ AdjustPaneSize = { "Right", 5 } }) },
-}
 
-for i = 0, 9 do
-	table.insert(config.keys, {
-		key = tostring(i),
-		mods = "LEADER",
-		action = wezterm.action.ActivateTab(i),
-	})
-end
 
 -- tab bar
 config.hide_tab_bar_if_only_one_tab = true
@@ -139,7 +77,6 @@ config.color_scheme = "Cloud (terminal.sexy)"
 -- config.color_scheme = 'Geohot (Gogh)'
 -- config.color_scheme = 'Canvased Pastel (terminal.sexy)'
 -- config.color_scheme = 'Github Dark (Gogh)'
--- config.color_scheme = 'zenburn (terminal.sexy)'
 config.colors = {
 	background = "#000",
 	-- cursor_border = "#ffffff",
@@ -166,7 +103,7 @@ config.colors = {
 
 		new_tab = {
 			bg_color = "#000",
-			fg_color = "white",
+			fg_color = "#fff",
 		},
 	},
 }
@@ -182,5 +119,56 @@ config.cell_width = 0.9
 config.window_background_opacity = 1
 config.prefer_egl = false
 config.front_end = "OpenGL"
+
+config.audible_bell = "Disabled"
+config.check_for_updates = false
+
+
+-- tmux
+config.leader = { key = "j", mods = "ALT" }
+config.disable_default_key_bindings = true
+config.keys = {
+		-- focus the current panel to fullscreen mode
+		{ key = "f", mods = "LEADER",       action="TogglePaneZoomState" },
+		-- panel splitting 
+		{ key = "v", mods = "LEADER",       action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
+		{ key = "s",mods = "LEADER",       action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
+		-- new tab
+		{ key = "n", mods = "LEADER",       action=wezterm.action{SpawnTab="CurrentPaneDomain"}},
+		-- navigation inside panel
+		{ key = "h", mods = "LEADER",       action=wezterm.action{ActivatePaneDirection="Left"}},
+		{ key = "j", mods = "LEADER",       action=wezterm.action{ActivatePaneDirection="Down"}},
+		{ key = "k", mods = "LEADER",       action=wezterm.action{ActivatePaneDirection="Up"}},
+		{ key = "l", mods = "LEADER",       action=wezterm.action{ActivatePaneDirection="Right"}},
+		-- panel resizing
+		{ key = "H", mods = "LEADER|SHIFT", action=wezterm.action{AdjustPaneSize={"Left", 5}}},
+		{ key = "J", mods = "LEADER|SHIFT", action=wezterm.action{AdjustPaneSize={"Down", 5}}},
+		{ key = "K", mods = "LEADER|SHIFT", action=wezterm.action{AdjustPaneSize={"Up", 5}}},
+		{ key = "L", mods = "LEADER|SHIFT", action=wezterm.action{AdjustPaneSize={"Right", 5}}},
+		-- close current tab
+		{ key = "?", mods = "SHIFT|CTRL", action=wezterm.action{CloseCurrentTab={confirm=true}}},
+		-- close current pane
+		{ key = "w", mods = "LEADER",       action=wezterm.action{CloseCurrentPane={confirm=true}}},
+		-- toggle fullscreen mode for the entire app
+		{ key = "n", mods="SHIFT|CTRL",     action="ToggleFullScreen" },
+		-- clipboard
+		-- activate copy mode "use v to select"
+		{ key = "y", mods = "LEADER",  action = wezterm.action.ActivateCopyMode },
+		-- copy and paste
+		{ key = "y",  mods="CTRL",    action=wezterm.action.CopyTo 'Clipboard'},
+		{ key = "p",  mods="CTRL",    action=wezterm.action.PasteFrom 'Clipboard'},
+		-- font sizes
+		{ key = "i", mods="SHIFT|CTRL",     action="IncreaseFontSize" },
+		{ key = "u", mods="SHIFT|CTRL",     action="DecreaseFontSize" },
+		{ key = "o", mods="SHIFT|CTRL",     action="ResetFontSize" },
+}
+
+for i = 0, 9 do
+	table.insert(config.keys, {
+		key = tostring(i),
+		mods = "LEADER",
+		action = wezterm.action.ActivateTab(i),
+	})
+end
 
 return config

@@ -1,6 +1,21 @@
 .window-appicon {
-  visibility: hidden !important;
-  display: none !important;
+  background-image: none !important;
+  visibility: visible !important;
+  display: block !important;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  min-width: 60px !important;
+  padding: 0 8px !important;
+}
+
+.window-appicon::after {
+  content: "NEVO";
+  font-family: "FiraCode Nerd Font", monospace !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  letter-spacing: 0.5px;
 }
 
 /* Toolbars when tabs are enabled. */
@@ -44,12 +59,18 @@
   border: none !important;
   background: transparent !important;
 }
+/* window title */
+.window-title {
+  font-family: "FiraCode Nerd Font" !important;
+  font-size: 13px !important;
+  color: #ccc !important;
+  font-weight: 400 !important;
+}
 
-/* Project Title */
-.titlebar-left {
-  justify-content: flex-start !important;
-  flex-grow: 0 !important;
-  width: auto !important;
+/* If you only want to affect the project/file name text */
+.window-title .title {
+  color: #fff !important; /* brighter than the separators */
+  font-weight: 500 !important;
 }
 
 /* Search Label */

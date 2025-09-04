@@ -6,15 +6,15 @@
   justify-content: center;
   width: auto !important;
   min-width: 60px !important;
-  padding: 0 8px !important;
+  padding: 8px !important;
 }
 
 .window-appicon::after {
   content: "NEVO";
   font-family: "FiraCode Nerd Font", monospace !important;
   font-size: 13px !important;
-  font-weight: 500 !important;
-  color: #fff !important;
+  font-weight: 400 !important;
+  color: #ccc !important;
   letter-spacing: 0.5px;
 }
 
@@ -59,18 +59,13 @@
   border: none !important;
   background: transparent !important;
 }
+
 /* window title */
 .window-title {
   font-family: "FiraCode Nerd Font" !important;
   font-size: 13px !important;
   color: #ccc !important;
   font-weight: 400 !important;
-}
-
-/* If you only want to affect the project/file name text */
-.window-title .title {
-  color: #fff !important; /* brighter than the separators */
-  font-weight: 500 !important;
 }
 
 /* Search Label */

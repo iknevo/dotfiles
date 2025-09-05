@@ -78,11 +78,10 @@
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/custom/custom-vscode.css",
-    "file:///c:/Users/nevoo/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    "file:///E:/visual-studio/vscode/custom/custom-vscode.css"
   ],
-  "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${activeRepositoryBranchName}${separator}${dirty}",
-  "chat.agent.enabled": false,
+  "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${dirty}",
+  // "chat.agent.enabled": false,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}.${extname}",
     "**/{layout,page}.tsx": "${dirname} ${filename}.${extname}"
@@ -102,7 +101,7 @@
   "workbench.editor.showTabs": "none",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "chat.commandCenter.enabled": false,
+  // "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
@@ -124,5 +123,7 @@
     "javascript": "javascriptreact"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": ["wezterm"]
+  "cSpell.userWords": ["wezterm"],
+  "chat.agent.enabled": false,
+  "chat.commandCenter.enabled": false
 }

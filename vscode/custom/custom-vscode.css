@@ -1,21 +1,18 @@
 .window-appicon {
   background-image: none !important;
   visibility: visible !important;
-  display: block !important;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   width: auto !important;
-  min-width: 60px !important;
-  padding: 8px !important;
+  padding: 0 10px !important;
 }
 
 .window-appicon::after {
   content: "NEVO";
-  font-family: "FiraCode Nerd Font", monospace !important;
+  font-family: "mononoki" !important;
   font-size: 13px !important;
-  font-weight: 400 !important;
   color: #ccc !important;
-  letter-spacing: 0.5px;
 }
 
 /* Toolbars when tabs are enabled. */
@@ -42,6 +39,7 @@
 
 .composite.title h2 {
   text-transform: uppercase;
+  font-family: "mononoki" !important;
   font-size: 13px !important ;
 }
 .sidebar .title-label {
@@ -62,10 +60,9 @@
 
 /* window title */
 .window-title {
-  font-family: "FiraCode Nerd Font" !important;
+  font-family: "mononoki" !important;
   font-size: 13px !important;
   color: #ccc !important;
-  font-weight: 400 !important;
 }
 
 /* Search Label */

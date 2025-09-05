@@ -107,7 +107,6 @@
   "window.menuBarVisibility": "compact",
   "workbench.colorTheme": "NEVO",
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "none",
   "material-icon-theme.hidesExplorerArrows": true,
@@ -125,5 +124,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "cSpell.userWords": ["wezterm"],
   "chat.agent.enabled": false,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "workbench.sideBar.location": "right"
 }

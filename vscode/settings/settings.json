@@ -76,7 +76,7 @@
   "vim.highlightedyank.textColor": "#000000",
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
-  "vim.useSystemClipboard": true,
+  "vim.useSystemClipboard": false,
   "vscode_custom_css.imports": [
     "file:///E:/visual-studio/vscode/custom/custom-vscode.css"
   ],
@@ -110,7 +110,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "none",
   "material-icon-theme.hidesExplorerArrows": true,
-  "workbench.activityBar.location": "top",
   "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1,
@@ -125,5 +124,9 @@
   "cSpell.userWords": ["wezterm"],
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "top",
+  "search.quickOpen.includeHistory": false,
+  "search.quickOpen.includeSymbols": false
 }

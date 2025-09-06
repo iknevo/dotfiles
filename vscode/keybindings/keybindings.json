@@ -132,7 +132,7 @@
   {
     "command": "editor.action.moveLinesUpAction",
     "key": "shift-k",
-    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine')&& editorTextFocus"
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine') && editorTextFocus"
   },
   {
     "command": "editor.action.indentLines",
@@ -231,6 +231,16 @@
     "command": "editor.action.addSelectionToNextFindMatch",
     "key": "alt+n",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "command": "editor.action.clipboardCopyAction",
+    "key": "space y",
+    "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine') && editorTextFocus"
+  },
+  {
+    "command": "editor.action.clipboardPasteAction",
+    "key": "space p",
+    "when": "(vim.mode == 'Normal' || vim.mode == 'Visual' || vim.mode == 'VisualLine') && editorTextFocus"
   },
   // File Explorer
   {

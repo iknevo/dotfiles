@@ -10,7 +10,7 @@
 
 .window-appicon::after {
   content: "NEVO";
-  font-family: "mononoki" !important;
+  font-family: "FiraCode Nerd Font" !important;
   font-size: 14px !important;
   color: #ccc !important;
 }
@@ -39,7 +39,7 @@
 
 .composite.title h2 {
   text-transform: uppercase;
-  font-family: "mononoki" !important;
+  font-family: "FiraCode Nerd Font" !important;
   font-size: 13px !important ;
 }
 .sidebar .title-label {

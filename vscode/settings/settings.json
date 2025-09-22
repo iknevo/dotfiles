@@ -31,7 +31,7 @@
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
-  "editor.scrollBeyondLastLine": false,
+  "editor.scrollBeyondLastLine": true,
   "editor.showFoldingControls": "never",
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": false,
@@ -78,7 +78,7 @@
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": false,
   "vscode_custom_css.imports": [
-    "file:///E:/visual-studio/vscode/custom/custom-vscode.css"
+    "file:///E:/dotfiles/vscode/custom/custom-vscode.css"
   ],
   "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${dirty}",
   // "chat.agent.enabled": false,
@@ -98,7 +98,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "git.confirmSync": false,
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
   // "chat.commandCenter.enabled": false,
@@ -121,12 +121,26 @@
     "javascript": "javascriptreact"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": ["wezterm"],
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "workbench.activityBar.location": "top",
   "search.quickOpen.includeHistory": false,
-  "search.quickOpen.includeSymbols": false
+  "search.quickOpen.includeSymbols": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "vscord.status.buttons.button1.enabled": false,
+  "vscord.status.buttons.button1.git.active.enabled": false,
+  "vscord.status.buttons.button1.git.idle.enabled": false,
+  "vscord.status.buttons.button1.git.inactive.enabled": false,
+  "vscord.status.details.text.editing": "{workspace} {problems}",
+  "vscord.status.details.text.idle": "Probably Making Coffee!",
+  "vscord.status.details.text.notInFile": "Probably Making Coffee!",
+  "vscord.status.details.text.viewing": "In {workspace}",
+  "vscord.status.idle.check": false,
+  "vscord.status.idle.enabled": false,
+  "vscord.status.idle.timeout": 500,
+  "vscord.status.image.large.idle.text": "Probably Making Coffee!",
+  "vscord.status.problems.enabled": false,
+  "vscord.status.state.text.editing": "Editing {file_name}{file_extension}"
 }

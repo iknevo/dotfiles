@@ -161,7 +161,17 @@ config.keys = {
 		{ key = "i", mods="SHIFT|CTRL",     action="IncreaseFontSize" },
 		{ key = "u", mods="SHIFT|CTRL",     action="DecreaseFontSize" },
 		{ key = "o", mods="SHIFT|CTRL",     action="ResetFontSize" },
+    { key = "u", mods = "LEADER", action = wezterm.action.EmitEvent("toggle-tabbar") }
 }
+
+wezterm.on("toggle-tabbar", function(window, _)
+	local overrides = window:get_config_overrides() or {}
+	if overrides.enable_tab_bar == nil then
+		overrides.enable_tab_bar = true 
+	end
+	overrides.enable_tab_bar = not overrides.enable_tab_bar
+	window:set_config_overrides(overrides)
+end)
 
 for i = 0, 9 do
 	table.insert(config.keys, {

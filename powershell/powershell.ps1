@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config 'E:\visual-studio\oh-my-posh\nevo.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'E:\dotfiles\oh-my-posh\nevo.omp.json' | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 

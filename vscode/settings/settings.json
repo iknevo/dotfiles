@@ -3,6 +3,8 @@
     "source.fixAll": "always",
     "source.sortImports": "always"
   },
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
   "editor.accessibilitySupport": "off",
   "editor.suggest.insertMode": "replace",
   "editor.cursorBlinking": "expand",
@@ -77,6 +79,9 @@
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": false,
+  "vim.sneakReplacesF": true,
+  "vim.sneak": true,
+  "vim.smartRelativeLine": true,
   "vscode_custom_css.imports": [
     "file:///E:/dotfiles/vscode/custom/custom-vscode.css"
   ],
@@ -98,7 +103,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "git.confirmSync": false,
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
   // "chat.commandCenter.enabled": false,
@@ -142,5 +147,6 @@
   "vscord.status.idle.timeout": 500,
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
   "vscord.status.problems.enabled": false,
-  "vscord.status.state.text.editing": "Editing {file_name}{file_extension}"
+  "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
+  "security.workspace.trust.untrustedFiles": "open"
 }
